@@ -1,8 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 .grey {
     background-color: #EEEEEC;
 }
 .content {
-    width: 1300px;
+    width: 1024px;
     margin: 0 auto;
     margin-top: 30px;
     background-color: white;
@@ -13,7 +17,7 @@
 }
 .main {
     float: left;
-    width: 800px;
+    width: 684px;
     margin-left: 20px;
     text-align: justify;
 }
@@ -46,7 +50,7 @@ th {
 }
 .right-menu {
     float: right;
-    width: 350px;
+    width: 340px;
     margin-right: 20px;
 }
 h3~p {
