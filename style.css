@@ -1,20 +1,24 @@
 .grey {
-    background-color: lightgrey;
+    background-color: #EEEEEC;
 }
 .content {
     width: 1300px;
     margin: 0 auto;
     margin-top: 30px;
+    background-color: white;
 }
-header {
-    height: 50px;
-    margin-bottom: 20px;
+.header {
+    height: 40px;
     color: white;
+}
+.main {
+    float: left;
+    width: 800px;
 }
 li {
     list-style: none;
     float: left;
-    margin-right: 20px;
+    margin-right: 60px;
     font-size: 20px;
 }
 a {
@@ -22,6 +26,25 @@ a {
 }
 .orange {
     background-color: orange;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 2px 2px;
+    text-align: center;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+}
+th {
+    background-color: #E6E6FA;
+}
+.right-menu {
+    float: right;
+    width: 200px;
+}
+.clear {
+    clear: both;
 }
 footer {
     height: 70px;
